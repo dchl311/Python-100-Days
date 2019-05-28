@@ -12,6 +12,16 @@ Author: 骆昊
 Date: 2018-03-02
 """
 
+
+
+
+
+
+
+
+
+
+
 from random import randint
 
 money = 1000

@@ -5,9 +5,10 @@ Version: 0.1
 Author: 骆昊
 Date: 2018-03-01
 """
-
+print(6/3)
 x = int(input('x = '))
 y = int(input('y = '))
+
 if x > y:
     (x, y) = (y, x)
 for factor in range(x, 0, -1):
