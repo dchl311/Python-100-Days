@@ -24,8 +24,10 @@ def sub_task(string, q):
 
 def main():
     q = Queue(10)
+    print(q)
     for number in range(1, 11):
         q.put(number)
+
     Process(target=sub_task, args=('Ping', q)).start()
     Process(target=sub_task, args=('Pong', q)).start()
 

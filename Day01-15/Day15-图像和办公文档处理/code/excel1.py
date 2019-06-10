@@ -23,4 +23,4 @@ tab.tableStyleInfo = TableStyleInfo(
     name="TableStyleMedium9", showFirstColumn=False,
     showLastColumn=False, showRowStripes=True, showColumnStripes=True)
 sheet.add_table(tab)
-workbook.save('./res/全班学生数据.xlsx')
+workbook.save('全班学生数据.xlsx')
